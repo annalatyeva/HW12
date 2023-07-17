@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(28,39,55);
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+h2 {
+    color: rgb(98, 129, 176);
+    margin: 0;
+    padding: 7px 20px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+h3 {
+    height: min-content;
+    width: calc(100% - 150px);
+    margin: 0;
+    padding: 7px 20px;
+    font-size: 22px;
+    color: rgb(214, 214, 214);
+    letter-spacing: 0.09em;
+    clear: both;
+
+}
+.display-zone {
+    height: 60vh;
+    border-bottom: 2px rgb(98, 129, 176) dashed;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+.input-zone {
+    height: calc(40vh - 2px);
+    background-color: rgb(36, 45, 59);
+    display: flex;
+}
+.input-container {
+    width: 55vw;
+}
+input, #comment {
+    width: 50vw;
+    margin: 3px 20px 10px;
+    background-color: rgb(36, 45, 59);
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    border: 2px rgb(98, 129, 176) dashed;
+}
+button {
+    align-self: center;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    font-size: 19px;
+    letter-spacing: 0.1em;
+    background-color: rgb(98, 129, 176);
+    color: rgb(36, 45, 59);
+    font-weight: 700;
+    border-radius: 7%;
+}
+.comment-container {
+    padding: 10px 10px 0;
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.avatar {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+p {
+    height: max-content;
+    width: calc(100% - 150px);
+    margin: -60px 120px  0px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    
+}
